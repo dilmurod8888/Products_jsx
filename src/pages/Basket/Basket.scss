@@ -1,0 +1,32 @@
+.basket{
+    margin-top: 30px;
+    &_top{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &_title{
+            font-family: Poppins;
+            font-size: 30px;
+            font-weight: 800;
+            line-height: 28px;
+            color: rgb(118, 51, 135);
+        }
+        &_btn{
+            box-shadow: 0 0 2px 2px rgb(200, 123, 248);
+            background-color: rgb(200, 123, 248);
+            padding: 17px;
+            border-radius: 15px;
+            border: rgb(123, 42, 181) solid 2px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            color: #fff;
+            font-size: 20px;
+            span{
+                font-size: 14px;
+                font-weight: 500;
+                line-height: 20px;
+            }
+        }
+    }
+}
